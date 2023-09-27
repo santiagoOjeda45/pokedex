@@ -1,0 +1,99 @@
+.home__title {
+    position: relative;
+    top: 8em;
+}
+
+.home__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 12em;
+}
+
+.home__salute {
+    color: rgb(243, 74, 74);
+    margin-bottom: 0.8em;
+}
+
+.home__instructions {
+    font-size: 15px; 
+    margin: 0 0.8em;
+}
+
+.home__form {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 14.5em;
+}
+
+.home__btn {
+    background-color: rgb(243, 74, 74);
+    color: white;
+}
+
+.home__input {
+    border: 0.1em solid #ccc;
+}
+
+.home__footer {
+    background-color: #DD1A1A;
+    ;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    height: 3.4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.home__ball {
+    width: 100%;
+    max-width: 3.4em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 576px) {
+    .home__title__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home__title {
+        max-width: 550px;
+    }
+
+    .home__salute {
+        font-size: 2.2rem;
+        margin-top: 2em;
+    }
+    .home__instructions {
+        font-size: 1.5rem;
+    }
+
+    .home__form {
+        margin-top: 2em;
+    }
+
+    .home__input {
+        height: 4em;
+    }
+
+    .home__btn {
+        width: 80px;
+        font-size: 1.2rem;
+    }
+
+    .home__footer {
+        height: 4.5em;
+    }
+
+    .home__ball {
+        max-width: 4.5em;
+    }
+}

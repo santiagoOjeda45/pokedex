@@ -1,0 +1,142 @@
+.id {
+    margin: 2em 0.8em 0.8em 0.8em;
+    border: 0.1em solid #d8d8d8;
+}
+
+.id__btn {
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gray;
+    color: white;
+    max-width: 250px;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.id__header {
+    width: 100%;
+    height: 8em;
+    font-weight: 1;
+}
+
+.id__img{
+    width: 100%;
+    max-width: 220px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.id__number {
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+.id__name {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0.2em;
+}
+
+.id__ul {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.id__li {
+    display: flex;
+    flex-direction: column;
+}
+
+.id__label {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.id__value {
+    font-weight: 500;
+}
+
+.id__type {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.id__type__list {
+    display: flex;
+    justify-content: center;
+}
+
+.id__types:nth-child(2)::before {
+    content: '/';
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+
+.id__types {
+    text-transform: capitalize;
+}
+
+.id__ability {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.id__ability__list {
+    display: flex;
+    justify-content: center;
+}
+
+.id__abilities:nth-child(2)::before {
+    content: '/';
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+
+.id__abilities {
+    text-transform: capitalize;
+    margin-bottom: 1.5em;
+}
+
+.id__bar {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+}
+
+.id__value__container {
+    width: 100%;
+    background-color: beige;
+    border-radius: 4rem;
+}
+
+.id__value__stat {
+    text-align: right;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;   
+}
+
+/* MEDIA QUERIES */ 
+@media screen and (min-width: 576) {
+    .main__box {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .id {
+        margin: 5em;
+        width: 100%;
+        max-width: 500px;
+    }
+}
